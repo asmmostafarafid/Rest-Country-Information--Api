@@ -6,21 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country Info</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <script>
-        fetch('https://restcountries.eu/rest/v2/all')
-            .then(res => res.json())
-            .then((out) => {
-                console.log('Checkout this JSON! ', out);
-            })
-            .catch(err => { throw err });
+    <div id="countries">
 
-            // open right button click than inspect see country all information  
-    </script>
+    </div>
 
+
+  
+    <script src="app.js"></script>
 </body>
 
 </html>
