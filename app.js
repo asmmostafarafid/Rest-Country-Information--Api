@@ -29,6 +29,7 @@ const displayCountries = countries => {
         const countryInfo = `
         <h3 class="country-name">${country.name}</h3>
         <p class>${country.capital}</p>
+        <button>Show Detail</button>
         `;
         countryDiv.innerHTML = countryInfo;
     
